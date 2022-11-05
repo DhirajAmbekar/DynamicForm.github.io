@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-screen{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.222),rgba(0, 0, 0, 0.222)),url("./img/office-zoom-background.jpg");
+    background-position: center;
+    filter: blur(3px);
+    position:fixed;
+}
+
+.start-screen{
+    margin: auto;
+    background-color: rgb(141, 239, 252);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    padding: 80px 130px;
+}
+.start-screen h1{
+    text-shadow: 0px 3px 2px rgb(129, 129, 129);
+    margin-bottom: 20px;
+    
+}
+.start-btn{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+}
+.start-btn:hover{
+    box-shadow: 0px 6px 2px rgb(102, 26, 26);
+    text-shadow: 0px 1px 1px rgb(224, 224, 224);
+}
+.first-screen{
+    height: fit-content;
+    width: 70%;
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    background-color: rgb(208, 226, 43);
+    display: none;
+}
+.second-screen{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(145, 255, 0);
+    position: absolute;
+    display: none;
+    top: 90px;
+    left: 25%;
+}
+
+
+
+
+.mainframe{
+    width: 70%;
+    height: fit-content;
+    /* border: solid 1px; */
+    text-align: center;
+    margin: auto;
+
+}
+.innerframe{
+    display: flex;
+    justify-content: center;
+
+}
+.mainfrom{
+    width: 70%;
+    height: fit-content;
+    border: solid;
+   
+}
+#clean {
+    display: flex;
+    width: 100%;
+    /* display: none; */
+
+}
+#clean1 ,#clean2 , #clean3 , #clean4 , #clean5 , #clean6 , #clean7{   
+    display: none;
+}
+.innerclean{
+    width: 100%;
+    display: flex;
+
+}
+
+
+#jon{
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+
+}
+.lowerform{
+    height: fit-content;
+    width: 100%;
+    display: none;
+    background-color: rgb(231, 239, 255);
+}
+#tomcruse ,#tomcruse2 ,#tomcruse3 ,#tomcruse4 ,#letinin5 {
+    display: none;
+    background-color: transparent;
+}
+.mainbox{
+    display: flex;
+}
+.leftbox{
+    height: 500px;
+    width: 40%;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    display: none; 
+    border-radius: 10px;
+    background-color:rgb(229, 226, 226);
+}
+.won1{
+    width: 50%;
+    padding: 20px 0px;
+    background-color:rgb(199, 157, 238);
+}
+input{
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+}
+span{
+    font-size: 30px;
+}
+button{
+    font-size: 15px;
+    padding: 7px 10px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+.sep{
+    margin-left: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 127, 127);
+    height:40px;
+    width: 40px;
+}
+.sep:hover{
+    background-color: red;
+}
+input[type="radio" i]{
+    margin: 0px 0px 0px 0px;
+}
+#gun{
+    background-color: burlywood;
+    color: rgb(24, 24, 24);
+   
+}
+option{
+    background-color:coral;
+}
+span{
+    background-color: transparent;
+}
+select{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: burlywood;
+}
+.hunga{
+    background-color: transparent;
+}
+label{
+    background-color: transparent;
+}
+.row{
+    border: solid;
+}
+.col{
+    border: solid;
+    height: 100px;
+}
+
+#let1,#let2,#let3,#let4,#let5,#let6{
+    width: 40%;
+    margin:10px 0px 10px 0px ;
+    
+}
+#box1,#box2,#box3,#box4,#box5,#box6{
+    padding: 0px 50px 30px 5px;
+}
+.inner-tomcruse{
+    display: flex;
+}
+.lowerform{
+    padding: 50px;
+}
+#second-viewer{
+    margin: 0px 0px 0px 40%;
+    padding:10px 60px;
+}
+#clean7{
+    background-color:rgb(199, 157, 238);
+}
+
